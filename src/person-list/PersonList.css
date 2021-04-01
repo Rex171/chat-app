@@ -1,0 +1,27 @@
+.inputSearch input{
+    border: none;
+    padding-left: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    width: 84%;
+    height: 34px;
+    margin: 15px;
+}
+.inputSearch{
+    text-align: center;
+    border-bottom: 1px #e1e1e1 solid;
+}
+.personList{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width:24rem;
+    border-right: 2px #c4c4c4 solid;
+    background-color: #ffffff;
+}
+
+@media(min-height: 800px){
+    .personList{
+        width: 35rem;
+    }
+  }

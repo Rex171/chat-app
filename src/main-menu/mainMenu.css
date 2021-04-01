@@ -1,0 +1,45 @@
+.mainMenu{
+    background-color: #295082;
+    width: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+    color: white;
+  }
+  .mainMenu p{
+    margin: 0;
+  }
+  .menu-item{
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-bottom: 20px;
+    padding-top: 8px;
+    font-size: 13px;
+  }
+  .menu-item:hover{
+    background-color: #39577e;
+  }
+  .menu-photo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
+  .menu-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  @media(min-height: 800px){
+    .mainMenu{
+        width: 7rem;
+    }
+  }

@@ -1,0 +1,33 @@
+.container-person{
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    padding-bottom: 10px;    
+    padding-top: 10px;
+    border-bottom: 1px #e1e1e1 solid;
+}
+.container-person:hover{
+    background-color: #e9f2ff;
+}
+.person-active{
+    border-left: 5px solid #43d854;
+}
+.center-person{
+    display: flex;
+    flex-flow: column;
+    width: 55%;
+}
+.person-message{
+    font-size: 13px;
+    color: #a4a4a4;
+}
+.person-time{
+    font-size: 13px;
+    color: #a4a4a4;
+}
+.center-person p{
+    margin: 0;
+    padding: 0;
+}
